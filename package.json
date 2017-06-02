@@ -1,0 +1,12 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha *.test.js --watch REPORTER=min"
+  }
+}
