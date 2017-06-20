@@ -7,6 +7,7 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha ./**/*.test.js --watch REPORTER=min"
+    "test": "mocha ./**/*.test.js --watch REPORTER=min",
+    "test:market": "mocha ./**/market.test.js --watch REPORTER=min"
   }
 }
