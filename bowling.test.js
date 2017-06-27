@@ -1,7 +1,6 @@
 const assert = require('assert');
 const bowling = require('./market');
 
-
 describe('market', () => {
   it('Should return 0 for the calculation of an empty score', () => {
     assert.equal(bowling.calculateScoreBowling(''),0)

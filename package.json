@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "mocha ./**/*.test.js --watch REPORTER=min",
-    "test:market": "mocha ./**/market.test.js --watch REPORTER=min"
+    "test:market": "mocha ./**/market.test.js --watch REPORTER=min",
+    "test:greed": "mocha ./**/greed.test.js --watch REPORTER=min"
   }
 }

@@ -3,7 +3,17 @@ exports.greed = function () {
     console.log('damn')
   }
 
-  this.calculateScore = (d1, d2) => {
-    // console.log(d1, d2);
+  this.calculateNbrD = () => {
+    
+  }
+
+  this.calculateScore = (des) => {
+    const d = des.split('')
+    console.log(d)
+    if (d1 === 1 && d2 === 1) {
+      return 100
+    } else if (d1 === 1 && d2 === 5) {
+      return 50
+    }
   }
 };
